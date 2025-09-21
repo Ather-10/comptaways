@@ -1,0 +1,13 @@
+{
+  "name": "comptaways",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
